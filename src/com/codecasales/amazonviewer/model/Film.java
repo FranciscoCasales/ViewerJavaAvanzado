@@ -1,6 +1,22 @@
 package com.codecasales.amazonviewer.model;
 
-public class Film {
+/**
+ * <h1>Film</h1>
+ * Fil es una clase padre abstracta
+ * </ br>
+ * Esta clase es la clase base de la familia Films, como es abstracta
+ * no pueden crearse instancias directas de esta clase. 
+ * </ br>
+ * Contiene el metodo abstracto 
+ * 
+ * {@code view()}
+ * 
+ * @author Francisco Casales (codecasales)
+ * @version 1.1
+ * @since 2018
+ * */
+
+public abstract class Film {
 	
 	private String title;
 	private String genre;
@@ -66,5 +82,11 @@ public class Film {
 	public void setViewed(boolean viewed) {
 		this.viewed = viewed;
 	}
+	
+	/**
+	 * {@code view()} es un metodo abstracto obligatorio de implementar
+	 * */
+	
+	public abstract void view();
 	
 }
