@@ -1,0 +1,19 @@
+Date: Wed, 3 Feb 2019
+
+
+
+ :: SERIE ::
+ Title: Serie 1
+ :: CHAPTER ::
+ Title: Capituo 1
+ Year: 2018
+ Creator: creator1
+ Duration: 45
+
+ :: SERIE ::
+ Title: Serie 1
+ :: CHAPTER ::
+ Title: Capituo 3
+ Year: 2020
+ Creator: creator3
+ Duration: 45
